@@ -15,8 +15,8 @@ Welcome to **Game Library**, a look-alike project inspired by [RAWG.io](https://
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **APIs**: Integrated with the [RAWG Video Games Database API](https://rawg.io/apidocs)
-- **Styling**: Tailwind CSS
-- **Deployment**: Deployed on Google Cloud Platform (GCP) using Cloud Run
+- **Styling**: Chakra UI
+- **Deployment**: Deployed on Google Cloud Platform (GCP) using Cloud Run [ToDo]
 
 ## Getting Started
 
@@ -56,12 +56,11 @@ Ensure you have the following installed on your local development environment:
    ```
 
 4. Start the application:
-   ````bash
+   ```bash
    npm start
    # or
    yarn start
    ```
-   ````
 
 The app will be running on http://localhost:5000.
 
@@ -74,6 +73,7 @@ The app will be running on http://localhost:5000.
 ## Future Scope
 
 - **Personalized Game Library**: Implementing functionality that allows users to manage their own game library, adding and removing games as they wish. This feature will leverage MongoDB for database management and is currently under development.
+- **Deployment**: Deploy on GCP using Cloud Run
 
 ## Screenshots
 
